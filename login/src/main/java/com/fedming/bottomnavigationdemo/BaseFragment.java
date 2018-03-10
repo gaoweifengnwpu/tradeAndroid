@@ -24,6 +24,7 @@ public class BaseFragment extends Fragment {
         fragment.setArguments( args );
         return fragment;
 
+
     }
 
     @Nullable
