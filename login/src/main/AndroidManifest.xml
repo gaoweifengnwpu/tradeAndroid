@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.trade.login">
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.fedming.bottomnavigationdemo.HomeActivity" />
+
+
+        <!--<service android:name="util.ConnectService"></service>-->
+
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!--android.permission.ACCESS LOCATIONEXTRA_COMMANDS-->
+    <!--android.permission.ACCESS NETWORKSTATE-->
+    <!--android.permission.ACCESS NOTIFICATIONPOLICY-->
+    <!--android.permission.ACCESS WIFISTATE-->
+    <!--android.permission.ACCESS WIMAXSTATE-->
+    <!--android.permission.BLUETOOTH-->
+    <!--android.permission.BLUETOOTH_ADMIN-->
+    <!--android.permission.BROADCAST_STICKY-->
+    <!--android.permission.CHANGE NETWORKSTATE-->
+    <!--android.permission.CHANGE WIFIMULTICAST_STATE-->
+    <!--android.permission.CHANGE WIFISTATE-->
+    <!--android.permission.CHANGE WIMAXSTATE-->
+    <!--android.permission.DISABLE_KEYGUARD-->
+    <!--android.permission.EXPAND STATUSBAR-->
+    <!--android.permission.FLASHLIGHT-->
+    <!--android.permission.GET_ACCOUNTS-->
+    <!--android.permission.GET PACKAGESIZE-->
+    <!--android.permission.INTERNET-->
+    <!--android.permission.KILL BACKGROUNDPROCESSES-->
+    <!--android.permission.MODIFY AUDIOSETTINGS-->
+    <!--android.permission.NFC-->
+    <!--android.permission.READ SYNCSETTINGS-->
+    <!--android.permission.READ SYNCSTATS-->
+    <!--android.permission.RECEIVE BOOTCOMPLETED-->
+    <!--android.permission.REORDER_TASKS-->
+    <!--android.permission.REQUEST INSTALLPACKAGES-->
+    <!--android.permission.SET TIMEZONE-->
+    <!--android.permission.SET_WALLPAPER-->
+    <!--android.permission.SET WALLPAPERHINTS-->
+    <!--android.permission.SUBSCRIBED FEEDSREAD-->
+    <!--android.permission.TRANSMIT_IR-->
+    <!--android.permission.USE_FINGERPRINT-->
+    <!--android.permission.VIBRATE-->
+    <!--android.permission.WAKE_LOCK-->
+    <!--android.permission.WRITE SYNCSETTINGS-->
+    <!--com.android.alarm.permission.SET_ALARM-->
+    <!--com.android.launcher.permission.INSTALL_SHORTCUT-->
+    <!--com.android.launcher.permission.UNINSTALL_SHORTCUT-->
+</manifest>
